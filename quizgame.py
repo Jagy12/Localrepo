@@ -52,8 +52,8 @@ else:
 
 
 
-print("Hey +name+ , You scored " + str(score))
-print("Your pecentage is "+str(score/30 *100))
+print(f"Hey {name}  You scored  + str{score}")
+print("Your pecentage is str{score/30 *100}")
 
 if score>=15:
    b = input("Congratulations! You have cleared round 1 🎉🎉🎉\nWould you like to continue? ")
