@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style4.css"/>
+    </head>
+    <body>
+      <div class="container">
+        <header class="header">
+          <h1 id="tittle" class="text-center">Quiz Game</h1>
+          <p id="description" class="description text-center">Welcome to a short quiz game?</p>
+          </header><form id="survey-form">
+            <form id="survey form">
+          <fieldset> <div class="form-group">
+
+         <label for="name">Name</label> <input id="name"  name="name" type="text"  placeholder="Enter your name" class="form-control" required</input>
+</div>
+          <div class="form-group">
+
+            <label for="age">Age</label>
+            <input id="age" name="age" type="number" min="13" max="99" class="form-control" placeholder="Age" required</input></div>
+            <div class="form-group">
+              <label for="gender">Gender</label>
+<select id="dropdown" name="gender" class="form-control"   required>
+  <option disabled selected value>Select your gender </option>
+  <option value="female">Female</option>
+  <option value="male">Male</option>
+<option value="transgender">Transgender</option>
+<option value="rather vot tell">Rather not tell</option></select>
+</div>
+ <div class="form-group">
+    <label for="number">Number</label>
+    <input id="number" type="tel" name="number" class="form-control" placeholder="Enter your phone number" required/></div>
+    <div class="form-group">
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" class="form-control" placeholder="Enter your Email" required/></div></fieldset>
+<fieldset><div class="form-group">
+<p>Which option describe your current role?</p>
+<select id="role" name="role" class="form-control" required>
+  <option disabled selected value>Select current role</option>
+  <option value="student">Student</option>
+  <option value="job">Full time job</option>
+  <option value="learner">Full time learner</option>
+  <option value="other">Others</option>
+  </select>
+  </div>
+<div class="form-group">
+<p>What is the best way to suggest career?</p>
+<select id="dropdown" name="way" class="form-control">
+<option disabled selected value>Select an option</option>
+
+<option value="course">According to your current course</option>
+<option value="test">By testing your knowledge</option>
+<option value="live">Attending live sessions with counsellors</option>
+<option value="others">Others</option>
+</select></div>
+<div class="form-group">
+  <p>Would you recommend Carrercamp to any friend?</p>
+<label><input id="definitely" name="user-recommended" type="radio" class="inline" checked/>Definitely</label>
+<label><input id="maybe" name="user-recommended" type="radio"
+class="inline"/>Maybe</label>
+<label><input id="not sure" name="user-recommended" type="radio"
+class="inline"/>Not sure</label>
+ </div>
+ <div class="form-group">
+   <p>How was your experience?</p>
+<label><input  name="experience value="good" type="checkbox" class="inline"/>Good</label>
+   <label><input  name="experience value="excellent" type="checkbox" class="inline"/>Excellent</label>
+   <label><input  name="experience value="poor" type="checkbox" class="inline"/>Poor</label></div></fieldset>
+       <div class="form-group">
+     <fieldset>
+<legend>Any comments or suggestions?</legend>
+     <textarea id="comments" class="input-textarea" name="comments" placeholder="Enter your comment here......."></textarea> </fieldset>
+</div>
+     <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
